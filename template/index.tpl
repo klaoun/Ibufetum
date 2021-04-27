@@ -8,7 +8,12 @@
 <div class="d-flex h-100 text-center align-items-center">
 <div class="w-100 text-white">
 <div><h1>{$TITLE}</h1></div>		  
-<DIV><h2>voila h2</h2></DIV>
+<DIV><h2>voila h2
+
+{if $NB_ITEMS > 0}<span class="badge nb_items">{$NB_ITEMS}</span>{/if}
+
+</h2>
+</DIV>
 <DIV><h3>voila une h3</h3></DIV>
 <DIV><h4>voila une h4</h4></DIV>
 <DIV><h5>voila une h5</h5></DIV>

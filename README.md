@@ -1,2 +1,2 @@
 # Ibufetum
-thème personnalisé pour Piwigo 2.9.5
+thème personnalisé pour Piwigo

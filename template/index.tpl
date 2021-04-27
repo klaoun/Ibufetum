@@ -1,8 +1,8 @@
-{combine_script id='core.switchbox' load='async' require='jquery' path='themes/montheme/js/switchbox.js'}
+{combine_script id='core.switchbox' load='async' require='jquery' path='themes/Ibufetum/js/switchbox.js'}
 <header>
 <div class="overlay"></div>
 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-<source src="/galerie295/themes/montheme/img/a.mp4" type="video/mp4">
+<source src="/themes/Ibufetum/img/a.mp4" type="video/mp4">
 </video>
 <div class="container h-100">
 <div class="d-flex h-100 text-center align-items-center">

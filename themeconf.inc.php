@@ -8,7 +8,7 @@ Author: klaoun
 Author URI:
 */
 $themeconf = array(
-  'name' => 'montheme',
+  'name' => 'Ibufetum',
   'parent' => 'default',
   'icon_dir' => 'themes/Ibufetum/img',
   'img_dir'      => 'themes/Ibufetum/img',

@@ -9,5 +9,4 @@ le site Web The [piwigo.org](https://piwigo.org) vous présente Piwigo. Vous y t
  * Serveur web (Apache ou nginx)
  * PHP 5.3 ou plus
  * MySQL 5 ou plus / MariaDB
- * ImageMagick ou PHP GD<p>
-![screenshot](https://github.com/klaoun/Ibufetum/blob/main/screenshot.png)
+ * ImageMagick ou PHP GD

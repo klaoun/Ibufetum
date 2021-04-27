@@ -76,7 +76,7 @@
 		</a></li>
 {/if}
 {if isset($U_SEARCH_RULES)}
-		{combine_script id='core.scripts' load='async' path='themes/montheme/js/scripts.js'}
+		{combine_script id='core.scripts' load='async' path='themes/Ibufetum/js/scripts.js'}
 		<li><a href="{$U_SEARCH_RULES}" onclick="popuphelp(this.href); return false;" title="{'Search rules'|@translate}" class="pwg-state-default pwg-button" rel="nofollow">
 			<span class="pwg-icon pwg-icon-help"></span><span class="pwg-button-text">(?)</span>
 		</a></li>

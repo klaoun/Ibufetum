@@ -1,18 +1,18 @@
 <?php
 /*
-Theme Name: Montheme
-Version: 0.01
-Description: Mon premier theme
-Theme URI: http://piwigo.org/
+Theme Name: Ibufetum
+Version: auto
+Description: 1er thème personnalisé de piwigo
+Theme URI:
 Author: klaoun
-Author URI: http://piwigo.org/
+Author URI:
 */
 $themeconf = array(
   'name' => 'montheme',
   'parent' => 'default',
-  'icon_dir' => 'themes/montheme/img',
-  'img_dir'      => 'themes/montheme/img',
-  'mime_icon_dir' => 'themes/montheme/img/',
+  'icon_dir' => 'themes/Ibufetum/img',
+  'img_dir'      => 'themes/Ibufetum/img',
+  'mime_icon_dir' => 'themes/Ibufetum/img/',
   'local_head' => '<!--template/local_head.tpl-->',
   'activable' => 'true',
   'load_parent_local_head' => 'false',

@@ -35,6 +35,23 @@ H6 {
 	text-align: left;
 	font-size: 1%;
 }
+
+#menubar .badge {
+  margin-left:5px;
+}
+.badge::before {
+  content: '[';
+}
+.badge::after {
+  content: ']';
+}
+.badge.badgeCategories::before {
+  content:"(";
+}
+.badge.badgeCategories::after {
+  content:")";
+}
+
 header {
   position: relative;
   height: 98vh;

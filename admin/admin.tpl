@@ -1,4 +1,3 @@
 <div class="titrePage">
-  <h2>Ibufetum Accueil</h2>
+  <h2>Ibufetum {$TABSHEET_TITLE}</h2>
 </div>
-<?php echo $_SERVER['HTTP_USER_AGENT']; ?>

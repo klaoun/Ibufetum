@@ -1,5 +1,5 @@
 <div class="titrePage">
-  <h2>Ibufetum Accueil</h2>
+  <h2>Ibufetum</h2>
 </div>
 <form method="post" class="properties" action="" ENCTYPE="multipart/form-data" name="form" class="properties">
 <div id="configContent">

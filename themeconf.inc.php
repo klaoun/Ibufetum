@@ -6,6 +6,7 @@ Description: 1er thème personnalisé de piwigo
 Theme URI:
 Author: klaoun
 Author URI:
+Has Settings: true
 */
 $themeconf = array(
   'name' => 'Ibufetum',

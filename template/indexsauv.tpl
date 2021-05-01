@@ -1,11 +1,13 @@
 {combine_script id='core.switchbox' load='async' require='jquery' path='themes/montheme/js/switchbox.js'}
-
 {$MENUBAR}
+
+
 {if isset($errors) or isset($infos)}
 <div class="content messages{if isset($MENUBAR)} contentWithMenu{/if}">
 {include file='infos_errors.tpl'}
 </div>
 {/if}
+
 {if !empty($PLUGIN_INDEX_CONTENT_BEFORE)}{$PLUGIN_INDEX_CONTENT_BEFORE}{/if}
 <div id="content" class="content{if isset($MENUBAR)} contentWithMenu{/if}">
 

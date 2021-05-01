@@ -10,7 +10,6 @@
 
 {if !empty($PLUGIN_INDEX_CONTENT_BEFORE)}{$PLUGIN_INDEX_CONTENT_BEFORE}{/if}
 <div id="content" class="content{if isset($MENUBAR)} contentWithMenu{/if}">
-
 <div class="titrePage{if isset($chronology.TITLE)} calendarTitleBar{/if}">
 	<ul class="categoryActions">
 {if !empty($image_orders)}

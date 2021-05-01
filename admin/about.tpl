@@ -1,3 +1,4 @@
+{combine_css path="themes/Ibufetum/admin/admin.css"}
 <div class="titrePage">
 <h2>{'Ibufetum'|@translate} {$TABSHEET_TITLE}</h2>
 </div>

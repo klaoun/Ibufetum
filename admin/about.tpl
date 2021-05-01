@@ -2,7 +2,7 @@
 <div class="titrePage">
 <h2>{'Ibufetum'|@translate} {$TABSHEET_TITLE}</h2>
 </div>
-<div>
+<div id="configContent" style="margin: 0 auto; max-width: 420px">
     <h3>{'Ibufetum'|@translate}</h3>
     <h4>{'Version'|@translate}: 11.4.0</h4>
     <h5>{'By'|@translate}: <a href="https://github.com/klaoun/Ibufetum">klaoun</a></h5>

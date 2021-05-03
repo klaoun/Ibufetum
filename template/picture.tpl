@@ -1,4 +1,9 @@
 {combine_script id='core.switchbox' load='async' require='jquery' path='themes/default/js/switchbox.js'}
+<div class="overlay"></div>
+<!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  --!>
+<video playsinline="playsinline" autoplay="autoplay" loop="loop">
+<source src="./themes/Ibufetum/img/a.mp4" type="video/mp4">
+</video>
 {if isset($MENUBAR)}{$MENUBAR}{/if}
 <div id="content"{if isset($MENUBAR)} class="contentWithMenu"{/if}>
 

@@ -18,6 +18,7 @@ $themeconf = array(
   'load_parent_local_head' => 'false',
   'load_parent_css' => 'false'
 );
+load_language('theme.lang', PHPWG_THEMES_PATH.'Ibufetum/');
 $conf['level_separator'] = ' &raquo; ';
 $conf['paginate_pages_around'] = 7;
 ?>

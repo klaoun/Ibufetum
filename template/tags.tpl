@@ -54,4 +54,4 @@
 </table>
 {/if}
 
-</div> <!-- content -->
+</div>

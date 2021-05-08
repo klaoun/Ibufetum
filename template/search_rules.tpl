@@ -57,5 +57,4 @@
     <a href="#" onclick="window.close();">{'Close this window'|@translate}</a>
 </p>
 
-</div> <!-- content -->
-
+</div>

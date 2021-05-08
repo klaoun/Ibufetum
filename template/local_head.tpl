@@ -35,7 +35,6 @@
 
 {if not empty($page_refresh)}<meta http-equiv="refresh" content="{$page_refresh.TIME};url={$page_refresh.U_REFRESH}">{/if}
 
-<!-- expiration en 2099 -->
 <meta http-equiv="Expires" content="Wed, 30 Feb 2099 17:00:59 GMT" />
 
 {strip}
@@ -51,15 +50,9 @@
 {combine_script id="jquery" load="footer"}
 {/strip}
 
-<!-- BEGIN get_combined -->
 {get_combined_css}
 
 {get_combined_scripts load='header'}
-<!-- END get_combined -->
-
-<!--[if lt IE 7]>
-<script type="text/javascript" src="{$ROOT_URL}themes/default/js/pngfix.js"></script>
-<![endif]-->
 
 {if not empty($head_elements)}
 {foreach from=$head_elements item=elt}

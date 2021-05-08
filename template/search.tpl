@@ -147,4 +147,4 @@ jQuery(document).ready(function() {
 document.search.search_allwords.focus();
 //--></script>
 
-</div> <!-- content -->
+</div>

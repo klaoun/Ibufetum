@@ -1,9 +1,8 @@
 <?php
-// mimimum pour configuration
 $template->set_filenames(array('theme_admin_content' => dirname(__FILE__) . '/admin.tpl'));
 $template->assign('options', unserialize($conf['Ibufetum']));
 $template->assign_var_from_handle('ADMIN_CONTENT', 'theme_admin_content');
-// tabsheet
+
 include_once(PHPWG_ROOT_PATH . 'admin/include/tabsheet.class.php');
 define('THEME_ID', basename(dirname(dirname(__FILE__))));
 define('ADMIN_PATH',   get_root_url() . 'admin.php?page=theme&theme=' . THEME_ID);

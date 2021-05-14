@@ -13,7 +13,7 @@
 
 <!--{if $NB_ITEMS > 0}-->
 
-<span class="badge nb_items">{$NB_ITEMS}</span>{/if}
+<!--<span class="badge nb_items">{$NB_ITEMS}</span>{/if}-->
 
 </h2>
 </DIV>

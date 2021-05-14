@@ -1,7 +1,7 @@
 {combine_script id='core.switchbox' load='async' require='jquery' path='themes/Ibufetum/js/switchbox.js'}
 <header>
 <div class="overlay"></div>
-<!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  --!>
+
 <video playsinline="playsinline" autoplay="autoplay" loop="loop">
 <source src="./themes/Ibufetum/img/a.mp4" type="video/mp4">
 </video>
@@ -11,7 +11,9 @@
 <div><h1>{$TITLE}</h1></div>		  
 <DIV><h2>
 
-{if $NB_ITEMS > 0}<span class="badge nb_items">{$NB_ITEMS}</span>{/if}
+<!--{if $NB_ITEMS > 0}-->
+
+<span class="badge nb_items">{$NB_ITEMS}</span>{/if}
 
 </h2>
 </DIV>

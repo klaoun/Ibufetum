@@ -1,6 +1,16 @@
 {combine_script id='core.switchbox' load='async' require='jquery' path='themes/default/js/switchbox.js'}
-{$MENUBAR}
 
+<header>
+<div class="overlay"></div>
+<!-- <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">  --!>
+<video playsinline="playsinline" autoplay="autoplay" loop="loop">
+<source src="./themes/Ibufetummaster/img/a.mp4" type="video/mp4">
+</video>
+<div class="container h-100">
+<div class="d-flex h-100 text-center align-items-center">
+<div class="w-100 text-white">
+
+{$MENUBAR}
 
 {if isset($errors) or isset($infos)}
 <div class="content messages{if isset($MENUBAR)} contentWithMenu{/if}">

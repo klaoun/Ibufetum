@@ -11,9 +11,9 @@ Has Settings: true
 $themeconf = array(
   'name' => 'Ibufetummaster',
   'parent' => 'default',
-  'icon_dir' => 'themes/Ibufetum/img',
-  'img_dir'      => 'themes/Ibufetum/img',
-  'mime_icon_dir' => 'themes/Ibufetum/img/',
+  'icon_dir' => 'themes/Ibufetummaster/img',
+  'img_dir'      => 'themes/Ibufetummaster/img',
+  'mime_icon_dir' => 'themes/Ibufetummaster/img/',
   'activable' => 'true',
   'load_parent_local_head' => 'false',
   'load_parent_css' => 'false'

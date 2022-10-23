@@ -1,6 +1,6 @@
 {combine_css path="themes/Ibufetum/admin/admin.css"}
 <div class="titrePage">
-  <h2>Ibufetum {$TABSHEET_TITLE}</h2>
+  <h2>Ibufetum</h2>
 </div>
 <div id="configContent" style="margin: 0 auto; max-width: 420px">
     <h3>{'Ibufetum'|@translate}</h3>

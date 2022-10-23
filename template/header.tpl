@@ -53,4 +53,4 @@
 {/foreach}
 {/if}
 </head>
-<body id="{$BODY_ID}">
+<body id="{$BODY_ID}" class="{$BODY_CLASS}">

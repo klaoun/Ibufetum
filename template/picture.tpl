@@ -150,7 +150,7 @@ y.callService(
 		{if isset($previous)}
 			<a class="navThumb" id="linkPrev" href="{$previous.U_IMG}" title="{'Previous'|@translate} : {$previous.TITLE_ESC}" rel="prev">
 				<span class="thumbHover prevThumbHover"></span>
-				<img src="{$previous.derivatives.square->get_url()}" alt="{$previous.TITLE_ESC}">
+				<img class="{if (isset($previous.path_ext) and $previous.path_ext == 'svg')}svgImg{/if}" src="{if (isset($previous.path_ext) and $previous.path_ext == 'svg')}{$previous.path}{else}{$previous.derivatives.square->get_url()}{/if}" alt="{$previous.TITLE_ESC}">
 			</a>
 		{elseif isset($U_UP)}
 			<a class="navThumb" id="linkPrev" href="{$U_UP}" title="{'Thumbnails'|@translate}">

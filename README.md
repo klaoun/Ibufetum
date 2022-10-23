@@ -1,3 +1,4 @@
+[![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%208.1-8892BF.svg?style=flat-square)](https://php.net/)
 # thème Ibufetum pour Piwigo
 thème personnalisé que pour Piwigo</p>
 <img src="https://piwigo.org/plugins/piwigo-piwigodotorg/images/piwigo.org.svg" width="200" alt="Piwigo logo">

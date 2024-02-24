@@ -31,7 +31,7 @@
 	<ul class="categoryActions">
 
 {if isset($SEARCH_IN_SET_ACTION) and $SEARCH_IN_SET_ACTION}
-	  {combine_css path="themes/default/vendor/fontello/css/gallery-icon.css" order=-10}
+	  {combine_css path="themes/Ibufetum/css/gallery-icon.css" order=-10}
     <li id="cmdSearchInSet"><a href="{$SEARCH_IN_SET_URL}" title="{'Search in this set'|translate}" class="pwg-state-default pwg-button">
       <span class="gallery-icon-search-folder"></span><span class="pwg-button-text">{'Search in this set'|translate}</span>
     </a></li>
@@ -196,7 +196,7 @@
 {/if}
 
 {if !empty($SEARCH_ID)}
-  {include file='themes/default/template/include/search_filters.inc.tpl'}
+  {include file='themes/Ibufetum/template/include/search_filters.inc.tpl'}
 {/if}
 
 {if !empty($THUMBNAILS)}
